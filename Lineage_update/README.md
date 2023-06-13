@@ -14,8 +14,8 @@
  
  -THE REQUIRED DATA ARE FOUR FILES DOWNLOADED DIRECTLY FROM GSAID. SELECT THE DESIRED SAMPLES AND DOWNLOAD THE FOLLOWING (Nucleotide Sequences (FASTA), Patient status metadata, Dates and Location and Input for the Augur pipeline).
  
- -INPUT FOR THE AUGUR PIPELINE IS A .tar FILE, EXTRACT IT AND FROM THE TWO FILES THERE, TAKE THE .metadata.tsv FILE AND PLACE IT WIHT THE OTHER THREE ON THE DATA FOLDER 
+ -INPUT FOR THE AUGUR PIPELINE IS A .tar FILE, EXTRACT IT AND FROM THE TWO FILES THERE, TAKE THE .metadata.tsv FILE AND PLACE IT WIHT THE OTHER THREE ON THE DATA FOLDER.
  
- -RENAME Patient status metadata and Dates and Location to end in _A.tsv and _B.tsv respectively.
+ -RENAME Patient status metadata AND Dates and Location TO END IN _A.tsv and _B.tsv RESPECTIVELY.
   
 
