@@ -1,6 +1,6 @@
 # Metagenomics analysis from ILLUMINA paired end fastq files
 
-- This pipeline will analyze Illumina paired-end fastq.gz files and produce a taxonomy report with the most representative taxa present on evh sample. The pipeline will make a Results folder for every sample that contains a taxon_piechart.pdf plot, taxon_results.csv file, paired end fastq merged pefq_merged.fasta and the blast output blastn_output.tab file.
+- This pipeline will analyze Illumina paired-end fastq.gz files and produce a taxonomy report with the most representative taxa present on each sample. The pipeline will make a Results folder for every sample that contains a taxon_piechart.pdf plot, taxon_results.csv file, paired end fastq merged pefq_merged.fasta and the blast output blastn_output.tab file.
 
 - The taxonomy.sh script is the parent script to run. It gets the unique names of the paired end files on an array, removes adapters with AdapterRemoval, converts merged fastq to fasta with seqtk and blasts the fasta with blastN. ALL FASTQ.GZ FILES MUST BE ON THE SAME DIRECTORY SPECIFIED ON THE taxonomy.sh SCRIPT.
 
