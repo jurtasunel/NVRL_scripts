@@ -8,14 +8,14 @@
 
 - This scripts work by updating a mysql database with only one table. The structure of that database is on the Pango_Lineages_DB.txt file.
 
- -THE PATH TO THE REPORT FOLDER MUST BE SPECIFIED ON THE LAST LINE OF Pango_Lineages.sh script.
+ - THE PATH TO THE REPORT FOLDER MUST BE SPECIFIED ON THE LAST LINE OF Pango_Lineages.sh script.
  
- -THE PATH TO THE DATA FOLDER MUST BE SPECIFIED ON THE Pango_Lineages_source.R script.
+ - THE PATH TO THE DATA FOLDER MUST BE SPECIFIED ON THE Pango_Lineages_source.R script.
  
- -THE REQUIRED DATA ARE FOUR FILES DOWNLOADED DIRECTLY FROM GSAID. SELECT THE DESIRED SAMPLES AND DOWNLOAD THE FOLLOWING (Nucleotide Sequences (FASTA), Patient status metadata, Dates and Location and Input for the Augur pipeline).
+ - THE REQUIRED DATA ARE FOUR FILES DOWNLOADED DIRECTLY FROM GSAID. SELECT THE DESIRED SAMPLES AND DOWNLOAD THE FOLLOWING (Nucleotide Sequences (FASTA), Patient status metadata, Dates and Location and Input for the Augur pipeline).
  
- -INPUT FOR THE AUGUR PIPELINE IS A .tar FILE, EXTRACT IT AND FROM THE TWO FILES THERE, TAKE THE .metadata.tsv FILE AND PLACE IT WIHT THE OTHER THREE ON THE DATA FOLDER.
+ - INPUT FOR THE AUGUR PIPELINE IS A .tar FILE, EXTRACT IT AND FROM THE TWO FILES THERE, TAKE THE .metadata.tsv FILE AND PLACE IT WIHT THE OTHER THREE ON THE DATA FOLDER.
  
- -RENAME Patient status metadata AND Dates and Location TO END IN _A.tsv and _B.tsv RESPECTIVELY.
+ - RENAME Patient status metadata AND Dates and Location TO END IN _A.tsv and _B.tsv RESPECTIVELY.
   
 
