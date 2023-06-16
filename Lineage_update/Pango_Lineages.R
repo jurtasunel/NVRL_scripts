@@ -1,5 +1,5 @@
 # Set working directory to the scripts location.
-setwd("/home/gabriel/Desktop/Jose/Projects/Lineage_changes/Scripts")
+setwd("path/to/scripts")
 ### Libraries.
 source("Pango_Lineages_source.R")
 ### Functions
@@ -161,7 +161,7 @@ lin_report <- cbind(lin_report, originating_lab)
 write.csv(lin_report, paste0("Lineage_change_", Sys.Date(), ".csv"), row.names = FALSE)
 
 # Configure the gmail credentials.
-gm_auth_configure(path = "/home/gabriel/Desktop/Jose/NVRL_documents/GmailReporting/GmailCredentials.json")
+gm_auth_configure(path = "path/to/GmailCredentials.json")
 
 # Create update email
 update_email <- gm_mime() %>%
@@ -181,7 +181,7 @@ questions please contact me at jose.urtasunelizari@ucd.ie
 Best wishes,
 Josemari") %>%
   # Use line below for testing and first time run of the script.
-  gm_attach_file(paste0("/home/gabriel/Desktop/Jose/Projects/Lineage_changes/Scripts/Lineage_change_", Sys.Date(), ".csv"))
+  gm_attach_file(paste0("path/to/Scripts/Lineage_change_", Sys.Date(), ".csv"))
   # Use line below for second time run after the bash script has already moved the file to the report folder.
   #gm_attach_file(paste0("/home/gabriel/Desktop/Jose/Projects/Lineage_changes/Reports/Lineage_change_", Sys.Date(), ".csv"))
 
