@@ -3,7 +3,7 @@
 ### This script requires an indexed reference genome and the Rscript plot_depth.R.
 
 # Create a variable to store the reference path. Requires a previously created reference with bowtie2-build.
-reference="/home/josemari/Desktop/Jose/Reference_sequences/MN908947"
+reference="/path/to/reference"
 # Get the name of the fastq file as an argument from terminal.
 rawfastq=$1
 
