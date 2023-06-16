@@ -31,7 +31,7 @@ if (args[1] == "-h" || args[1] == "help"){
 medaka_consensus_file = args[1]
 episeq_consensus_file = args[2]
 # Load sequences.
-reference_path = "/home/josemari/Desktop/Jose/Reference_sequences/MN908947.fasta"
+reference_path = "path/to/reference"
 reference <- read.fasta(reference_path, as.string = TRUE, forceDNAtolower = TRUE, set.attributes = FALSE)
 medaka_consensus <- read.fasta(medaka_consensus_file, as.string = TRUE, forceDNAtolower = TRUE, set.attributes = FALSE)
 episeq_consensus <- read.fasta(episeq_consensus_file, as.string = TRUE, forceDNAtolower = TRUE, set.attributes = FALSE)
