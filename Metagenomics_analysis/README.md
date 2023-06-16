@@ -8,11 +8,11 @@
 
 - The plot_piechart.R script reads in the blast output and the taxon csv and produces a piechart with the most frequent organisms of that sample.
 
-- UP TO THIS POINT, THE PIPELINE RUNS AUTOMATICALLY. FROM THE TAXON RESULT AND TAXON PIECHART, THE MOST RELEVANT ORGANISMS CAN BE CHOOSEN FOR THE NEXT STEP.
+- UP TO THIS POINT, THE PIPELINE RUNS AUTOMATICALLY. From the taxon Result and taxon piechart, the most relevant organisms can be chosen for the next step.
 
-- DO A SIMPLE ALIGNMENT OF THE FASTQ FILES OF ANY DESIRED SAMPLE WITH BOWTIE2 AND GET THE depth.txt FILE WITH SAMTOOLS.
+- Do a simple alignment of the fastq files of any desired sample with Bowtie2 and get the depth.txt file using Samtools.
 
-- THE depth.txt FILE, THE ORGANISM REFERENCE .fasta FILE AND THE ANNOTATION .gff3 FILE ARE THE INPUTS TO THE plot_depth.R SCRIPT. THE PLOTTING WILL NEED TO BE RESCALATED MANUALLY DEPENDING ON THE ORGANISM'S GENOME LENGTH.
+- THE depth.txt FILE, the organism reference .fasta file and the annotation .gff3 file are the inputs to the plot_depth.R script. THE PLOTTING WILL NEED TO BE RESCALATED MANUALLY DEPENDING ON THE ORGANISM'S GENOME LENGTH.
 
 
 
