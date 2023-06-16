@@ -12,7 +12,7 @@
 
 - Do a simple alignment of the fastq files of any desired sample with Bowtie2 and get the depth.txt file using Samtools.
 
-- THE depth.txt FILE, the organism reference .fasta file and the annotation .gff3 file are the inputs to the plot_depth.R script. THE PLOTTING WILL NEED TO BE RESCALATED MANUALLY DEPENDING ON THE ORGANISM'S GENOME LENGTH.
+- The depth.txt file, the organism reference .fasta file and the annotation .gff3 file are the inputs to the plot_depth.R script. THE PLOTTING WILL NEED TO BE RESCALATED MANUALLY DEPENDING ON THE ORGANISM'S GENOME LENGTH.
 
 
 
