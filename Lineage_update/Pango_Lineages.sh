@@ -19,5 +19,5 @@ Rscript Pango_Lineages.R
 
 # Remove intermediate files and move the result files to the Reports folder.
 rm pango.fasta lineage_report.csv 
-mv *.csv  /home/gabriel/Desktop/Jose/Projects/Lineage_changes/Reports/
+mv *.csv  path/to/Reports/
 
