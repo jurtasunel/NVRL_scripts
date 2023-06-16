@@ -26,13 +26,13 @@ draw_rectangle <- function(x_start, x_end, y_start, y_end, colour){
 }
 
 ### Load sequences:
-reference_path = "/home/josemari/Desktop/Jose/Reference_sequences/Herpesvirus/Herpesvirus2"
-reference <- read.fasta(paste0(reference_path, "/NC_001798.2.fasta"), as.string = TRUE, forceDNAtolower = TRUE, set.attributes = FALSE)
-ref_gff <- read.table(paste0(reference_path, "/NC_001798.2.gff3"), sep = "\t", header = FALSE, stringsAsFactors = FALSE, quote = "")
+reference_path = "path/to/reference"
+reference <- read.fasta(paste0(reference_path, "/reference.fasta"), as.string = TRUE, forceDNAtolower = TRUE, set.attributes = FALSE)
+ref_gff <- read.table(paste0(reference_path, "/reference.gff3"), sep = "\t", header = FALSE, stringsAsFactors = FALSE, quote = "")
 # Load the dept.txt file.
-depth_file_path = "/home/josemari/Desktop/Metagenomics_analysis/Data/A5_Extract_5_S5_L001_results"
+depth_file_path = "/path/to/depthfile"
 setwd(depth_file_path)
-depth_file <- read.table(paste0(depth_file_path, "/A5_Extract_5_S5_L001_depth.txt"),  sep = '\t', header = FALSE)
+depth_file <- read.table(paste0(depth_file_path, "/depthfile.txt"),  sep = '\t', header = FALSE)
 colnames(depth_file) <- c("Chromosome", "nt_pos", "depth")
 
 ### Workflow:
