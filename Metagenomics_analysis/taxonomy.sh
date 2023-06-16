@@ -5,13 +5,13 @@
 
 ### Define variables:
 # Export blastn database for viral genomes and get the database prefix_ID.
-export BLASTDB=/home/josemari/Desktop/Jose/Reference_sequences/Reference_virus_DB/ref_viruses_rep_genomes
-blastN_db="ref_viruses_rep_genomes"
+export BLASTDB=/path/to/referenceDataBase
+blastN_db="name_of_DataBase"
 # Get the path to the paired end fastq files.
-data_path="/home/josemari/Desktop/Metagenomics_analysis/Data"
+data_path="path/to/data"
 # Define the illumina suffix for forward and reverse reads.
-Fr_suffix="_R1_001.fastq.gz"
-Rv_suffix="_R2_001.fastq.gz"
+Fr_suffix="forward_suffix.fastq.gz"
+Rv_suffix="reverse_suffix.fastq.gz"
 # Add the names of all the files to an array by:
 # Creating an associative array that only stores unique values (so paired end names on two files don't repeat).
 declare -A files_hash
