@@ -9,8 +9,8 @@ library(taxonomizr) # Manage ncbi taxonomy files as data bases for fast output.
 # Documentation: https://cran.r-project.org/web/packages/taxonomizr/readme/README.html
 # taxonomizr only needs to be set up once, then it functions can be used.
 # Prepare the taxonomizr database.
-prepareDatabase('/home/josemari/Desktop/Jose/Projects/MetaMIX/Scripts/accessionTaxa.sql')
-accessionTaxa_sql = "/home/josemari/Desktop/Jose/Projects/MetaMIX/Scripts/accessionTaxa.sql"
+prepareDatabase('path/to/accessionTaxa.sql')
+accessionTaxa_sql = "path/to/accessionTaxa.sql"
 
 # Allow argument usage.
 args = commandArgs(trailingOnly = TRUE)
