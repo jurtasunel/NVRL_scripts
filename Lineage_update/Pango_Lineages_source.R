@@ -37,7 +37,7 @@ db_disconnect <- function(){
 }
 
 # Read the fasta file and metadata files.
-datapath = "/home/gabriel/Desktop/Jose/Projects/Lineage_changes/Data/"
+datapath = "path/to/data"
 fasta_path = paste0(datapath, list.files(datapath, ".fasta"))
 fasta_file <- read.fasta(fasta_path, as.string = TRUE, forceDNAtolower = FALSE, set.attributes = FALSE)
 metadata_path = paste0(datapath, list.files(datapath, "A.tsv"))
