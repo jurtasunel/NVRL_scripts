@@ -13,9 +13,9 @@
 #### This script requires the artic environment to be activated with "source activate artic-ncov2019".
 
 # Get the required variables.
-data_path="/home/josemari/Desktop/OOS_fastqs/Data/"
-barcodes=("N230270082" "N230270084") 
-prefix="25052023"
+data_path="/path/to/data/"
+barcodes=("barcode1" "barcode2" "ect") 
+prefix="prefix_of_choice"
 
 # Loop through the barcodes
 for i in ${barcodes[@]}; do
