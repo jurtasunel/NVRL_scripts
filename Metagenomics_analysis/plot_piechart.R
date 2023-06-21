@@ -36,7 +36,7 @@ mycolors <- colorRampPalette(brewer.pal(8, "Set2"))(number_of_colors)
 
 print("Plotting taxonomy piechart...")
 # Create the pie chart:
-taxon_pie <- ggplot(summary_data, aes(x="", y=Percentage, fill=Organism)) + geom_bar(stat="identity", width=1) + # basic bar plot.
+taxon_pie <- ggplot(summary_data, aes(x="", y=as.integer(Percentage), fill=Organism)) + geom_bar(stat="identity", width=1) + # basic bar plot.
   coord_polar("y", start=0) + geom_text(aes(x = 1.1, label = paste0(round(as.numeric(Percentage), 2), "%")),  # x defines the text distance from the center. 
                                         position = position_stack(vjust = 0.5),
                                         check_overlap = TRUE) + # If labels overlap, don't plot them.
